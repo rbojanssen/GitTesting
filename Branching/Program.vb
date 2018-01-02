@@ -3,6 +3,7 @@ Imports System
 Module Program
     Sub Main(args As String())
         Console.ForegroundColor = ConsoleColor.Cyan
+        Console.Title = "GiTesting stuff"
 
         Console.WriteLine("Hello World!" & vbCrLf)
         Console.WriteLine("Type some text and hit enter...")
